@@ -1,5 +1,9 @@
 # Data Portfolio: Excel to Power BI
 
+![Kaggle_to_powerbi properties](https://github.com/user-attachments/assets/ee2a56d9-e184-4050-b8b0-11c5834e2559)
+
+
+
 # Table of Contents
 - <span style="color: red">[Objective](#objective)</span>
 - <span style="color: blue">[Data Source](#data-source)</span>
@@ -97,6 +101,9 @@ Some of the data visuals that may be appropriate in answering our questions incl
 2. Treemap
 3. Scorecards
 4. Horizontal bar chart
+
+<img width="672" alt="dashboard_mockup" src="https://github.com/user-attachments/assets/1a2aca31-f200-4af5-9423-09b58c524422" />
+
 
 ## Tools
 
@@ -231,6 +238,7 @@ FROM
     view_uk_youtubers_2024;
 ```
 
+![1_row_count_check](https://github.com/user-attachments/assets/68ee07ef-3d69-461a-8954-134606619049)
 
 
 ## Column count check
@@ -253,7 +261,7 @@ WHERE
 
 ### Output
 
-
+![2_column_count_check](https://github.com/user-attachments/assets/ff729019-12c0-49e4-ab92-d3270193f192)
 
 
 
@@ -276,6 +284,8 @@ WHERE
 ```
 
 ### Output
+
+![3_data_type_check](https://github.com/user-attachments/assets/6d1a9e10-b520-4cb4-8776-5c2309176828)
 
 ## Duplicate count check
 
@@ -303,12 +313,15 @@ HAVING
     COUNT(*) > 1;
 ```
 ### Output
+![4_duplicate_records_check](https://github.com/user-attachments/assets/24ac2fa7-66f3-4a3d-a823-cc8eee9800c7)
 
 # Visualization
 
 ### Results
 
 - What does the dashboard look like?
+
+<img width="907" alt="powerbi_dashboard" src="https://github.com/user-attachments/assets/a3178389-00cb-44ac-ae7c-b3ecfc7599b4" />
 
 
 This shows the Top UK Youtubers in 2024 so far.
